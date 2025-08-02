@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A* Pathfinding</title>
+</head>
+
+<body>
+    <div id="gridContainer">
+
+    </div>
+
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            background-color: #000;
+            align-items: center;
+            margin: 0;
+            height: 100vh
+        }
+
+        #gridContainer {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            aspect-ratio: 1;
+            background-color: rgba(0, 0, 0, 0.521);
+            justify-content: center;
+            align-items: center;
+        }
+
+        .row {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .node {
+            user-select: none;
+            width: 10%;
+            aspect-ratio: 1;
+            background: #ffffff;
+            border: 1px solid #1f1f1f;
+            position: relative;
+            box-sizing: border-box;
+        }
+
+        .score {
+            position: absolute;
+            color: rgb(0, 0, 0);
+            font-size: medium;
+            font-weight: bold;
+        }
+
+        #score0 {
+            top: 5%;
+            left: 5%;
+        }
+
+        #score1 {
+            top: 5%;
+            right: 5%;
+        }
+
+        #score2 {
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: larger;
+            /* Makes the bottom score larger */
+        }
+    </style>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
