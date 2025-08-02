@@ -21,8 +21,7 @@ This project is a visualization tool for A* pathfinding algorithm. It demonstrat
 - **blockAmount** Randomly generated block amount if maze is false (number)
 - **showScores** Show g, f and h costs in the ui (boolean)
 
-- *Change these settings in the **main.js** file(scroll to bottom).*
-- *After change, save and refresh the page.*
+ > *Change these settings in the **main.js** file(scroll to bottom). After change, save and refresh the page.*
 
 ## Keybinds
 - **Left Click** start the algorithm
