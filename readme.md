@@ -14,15 +14,15 @@ This project is a visualization tool for A* pathfinding algorithm. It demonstrat
 3. Interact with the grid to visualize pathfinding.
 
 ## Configuration
--**startMatrix** Grid Size (number, number)
--**maze** Create maze or random blocks (boolean)
--**clickWait** wait for click between each a_star algorithm iteration (boolean)
--**speed** Wait time in ms between each iteration, higher value = slower (number)
--**blockAmount** Randomly generated block amount if maze is false (number)
--**showScores** Show g, f and h costs in the ui (boolean)
+- **startMatrix** Grid Size (number, number)
+- **maze** Create maze or random blocks (boolean)
+- **clickWait** wait for click between each a_star algorithm iteration (boolean)
+- **speed** Wait time in ms between each iteration, higher value = slower (number)
+- **blockAmount** Randomly generated block amount if maze is false (number)
+- **showScores** Show g, f and h costs in the ui (boolean)
 
--*Change these settings in the **main.js** file(scroll to bottom).*
--*After change, save and refresh the page.*
+- *Change these settings in the **main.js** file(scroll to bottom).*
+- *After change, save and refresh the page.*
 
 ## Keybinds
 - **Left Click** start the algorithm
